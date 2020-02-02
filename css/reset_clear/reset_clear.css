@@ -1,0 +1,13 @@
+* {
+   margin: 0 auto;
+}
+.clearfix {
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+
+
+
