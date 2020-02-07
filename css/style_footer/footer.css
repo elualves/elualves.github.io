@@ -3,29 +3,20 @@
 	width: 100%;
 	height: 150px;
 }
-.ff_texto_1 h2, .ff_texto_1 span a {
-	font-size: 1em;
-	margin-top: 60px;
-	margin-left: 40px;
-	text-decoration: none;
-	line-height: 1.5;
-	float: right;
-}
-.ff_texto_2 , .ff_texto_2 span a {
-	font-size: 1em;
-	margin-top: 60px;
-	line-height: 1.5;
-	text-decoration: none;
+.ff_texto1 {
 	text-align: center;
+	padding-top:  40px;
 }
-.ff_texto_3 h2, .ff_texto_3 span a {
-	
-	font-size: 1em;
-	margin-top: 60px;
-	margin-right: 20px;
-	line-height: 1.5;
+.ff_texto2 {
+	text-align: center;
+	padding-top:  46px;
+}
+.ff_texto3 {
+	text-align: center;
+	padding-top:  66px;
+}
+a {
 	text-decoration: none;
-	float: left;
 }
 @media only screen and (max-width: 800px){
 	.some_800 {

@@ -9,3 +9,37 @@
 	margin-top: 300px;
 	margin-left: 300px;
 }
+.indice_de_codigos a {
+	margin-left: 10px;
+	font-size: 1em;
+}
+.indice_de_codigos ul li a {
+	text-decoration: none;
+}
+.indice_de_codigos ul li {
+	list-style: none;
+}
+.indice_de_codigos ul li a:hover {
+	border-bottom: 1px solid #0066ff;
+}
+.titulo{
+	text-align: center;
+	color: #0066ff;
+	font-size: 1.5em;
+	border-bottom: 1px solid #0066ff;
+	
+}
+.titulo_java {
+	color: #0066ff;
+	font-size: 1.5em;
+	margin-top: 10px;
+	margin-left: 50px;
+	text-decoration:underline;
+}
+.imagem img{
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
