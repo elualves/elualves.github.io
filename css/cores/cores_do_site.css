@@ -1,8 +1,14 @@
 .ceu_azul, .ceu_azul a {
 	color: #66ccff;	
 }
+.azul_claro, .azul_claro a {
+	color: #3385ff;
+}
 .azul_medio, .azul_medio a {
-	color: #0066ff;
+	color:  #1a75ff;
+}
+.azul_escuro, .azul_escuro a {
+	color: #0047b3
 }
 .azul_bg {
 	background-color: #c0deef;

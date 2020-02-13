@@ -1,11 +1,7 @@
 .corpo {
 	width: 75%;
 	padding-bottom: 800px;
-	height: 800px;	
-}
-.indice_de_codigos a {
-	margin-left: 10px;
-	font-size: 1em;
+	height: 800px;
 }
 .indice_de_codigos ul li a {
 	text-decoration: none;
@@ -17,27 +13,43 @@
 	border-bottom: 1px solid #0066ff;
 }
 .titulo{
-	text-align: center;
+	text-align: right;
 	color: #0066ff;
-	font-size: 1.5em;
-	border-bottom: 1px solid #0066ff;
+	font-size: .8em;
+	margin-right: 20px;
+	
 	
 }
-.titulo_java {
-	color: #0066ff;
-	font-size: 1.5em;
+.titulo_java_10 {
+	font-size: 1.2em;
 	margin-top: 10px;
-	margin-left: 50px;
+	margin-left: 5px;
 	text-decoration:underline;
+	line-height: .8;
+}
+.titulo_java_20 {
+	font-size: 1.0em;
+	margin-top: 10px;
+	margin-left: 20px;
+	text-decoration:underline;
+	line-height: .7;
+}
+.titulo_java_30 {
+	font-size: .9em;
+	margin-top: 10px;
+	margin-left: 30px;
+	text-decoration:none;
+	line-height: .6;
 }
 .imagem img{
+	float: left;
 	width: 50px;
 	height: 50px;
 	float: right;
-	margin-right: 20px;
+	margin-right: 40px;
 	margin-top: 20px;
 }
 .imagem img:hover {
-	width: 55px;
-	height: 55px;
+	border: 1px solid #3385ff;
+	border-radius: 50px;
 	}
