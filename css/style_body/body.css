@@ -1,6 +1,6 @@
 .corpo {
 	width: 75%;
-	padding-bottom: 800px;
+	
 	height: 800px;
 }
 .indice_de_codigos ul li a {
@@ -52,4 +52,32 @@
 .imagem img:hover {
 	border: 1px solid #3385ff;
 	border-radius: 50px;
-	}
+}
+/*PAGINA CORPO DO CONTATO INICIO*/
+.fundo_do_contato {
+	width: 100%;
+	height: auto;
+}
+.corpo_do_contato {
+	width: 60%;
+	height:600px;
+}
+.icone_telefone img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+   padding: 10px;
+}
+.icone_email img {	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.icone_whatsapp img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+/*PAGINA CORPO DO CONTATO FIM*/
