@@ -19,8 +19,5 @@ function efeito_no_icone_whatsapp() {
 }
 function retorna_efeito_whatsapp() {
 	document.getElementById("icone_whatsapp").src = "../imagens/icone_whatsapp.png"
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 2f24291b485c4ddc4009503db7c864c5c1f0a516
+
