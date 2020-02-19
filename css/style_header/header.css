@@ -2,6 +2,7 @@
 	width: 100%;
 	height: 300px;
 	min-width: 100%;
+	margin-top: -10px;
 }
 @media only screen and (max-width: 1500px){ 
 .ea_1500 {

@@ -52,10 +52,8 @@
 	border-radius: 50%;
 	box-shadow: 2px 2px 2px 2px #1a75ff;
 }
-.distancia_inferior {
-	margin-bottom: 5px;
-}
-/*PAGINA CORPO DO CONTATO INICIO*/
+
+/*ENTRE EM CONTATO INICIO*/
 .fundo_do_contato {
 	width: 100%;
 	height: auto;
@@ -82,4 +80,4 @@
     margin-right: auto;
     padding: 10px;
 }
-/*PAGINA CORPO DO CONTATO FIM*/
+/*ENTRE EM CONTATO FIM*/
