@@ -1,7 +1,6 @@
 .corpo {
 	width: 75%;
-	
-	height: 800px;
+	height: auto;
 }
 .indice_de_codigos ul li a {
 	text-decoration: none;
@@ -50,8 +49,11 @@
 	margin-top: 20px;
 }
 .imagem img:hover {
-	border: 1px solid #3385ff;
-	border-radius: 50px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 2px 2px #1a75ff;
+}
+.distancia_inferior {
+	margin-bottom: 5px;
 }
 /*PAGINA CORPO DO CONTATO INICIO*/
 .fundo_do_contato {
