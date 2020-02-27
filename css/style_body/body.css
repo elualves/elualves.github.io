@@ -52,8 +52,16 @@
 	border-radius: 50%;
 	box-shadow: 2px 2px 2px 2px #1a75ff;
 }
-
+.voltar a {
+	color: #1a75ff;
+	font-size: 2em;
+	margin-left: 10px;
+}
+.voltar a:hover {
+	border :1px solid #1a75ff;
+}
 /*ENTRE EM CONTATO INICIO*/
+
 .fundo_do_contato {
 	width: 100%;
 	height: auto;
