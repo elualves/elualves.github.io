@@ -56,9 +56,11 @@
 	color: #1a75ff;
 	font-size: 2em;
 	margin-left: 10px;
+
 }
 .voltar a:hover {
 	border :1px solid #1a75ff;
+	border-radius: 10px;
 }
 /*ENTRE EM CONTATO INICIO*/
 
