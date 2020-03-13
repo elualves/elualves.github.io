@@ -62,6 +62,15 @@
 	border :1px solid #1a75ff;
 	border-radius: 10px;
 }
+.texto_bem_vindo h1 {
+	text-align: center;
+	color: blue;
+}
+.texto_bem_vindo p {
+	text-align: center;
+	color: blue;
+	font-size: 1.5em;
+}
 /*ENTRE EM CONTATO INICIO*/
 
 .fundo_do_contato {
@@ -89,5 +98,8 @@
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+}
+.distancia_top_160 {
+	padding: 160px;
 }
 /*ENTRE EM CONTATO FIM*/
