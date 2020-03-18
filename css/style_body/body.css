@@ -103,3 +103,11 @@
 	padding: 160px;
 }
 /*ENTRE EM CONTATO FIM*/
+
+/*INÍCIO PÁGINA O QUE É A UML*/
+.texto_da_uml {
+	font-size: 1.3em;
+	text-align: center; 
+	width: 75%;
+}
+/*FIM PÁGINA O QUE É A UML*/
