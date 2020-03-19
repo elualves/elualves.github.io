@@ -65,12 +65,36 @@
 .texto_bem_vindo h1 {
 	text-align: center;
 	color: blue;
+	width: 75%;
 }
 .texto_bem_vindo p {
 	text-align: center;
 	color: blue;
 	font-size: 1.5em;
+	width: 75%;
 }
+.sugestoes a {
+	color: blue;
+	font-size: 1.2em;
+	
+	text-decoration: none;
+}
+.sugestoes {
+	text-align: center;
+}
+.sugestoes a:hover {
+	color: #1a75ff;
+	border-bottom:1px solid #1a75ff;
+}
+.pensamento_inicial {
+	color: blue;
+	font-size: 1em;
+	width: 31%;
+
+	text-align: justify;
+	font-style: italic;
+}
+
 /*ENTRE EM CONTATO INICIO*/
 
 .fundo_do_contato {
