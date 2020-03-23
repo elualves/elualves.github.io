@@ -94,7 +94,32 @@
 	text-align: justify;
 	font-style: italic;
 }
-
+.comandos {
+	font-size: 1em;
+	border: 1px solid black;
+	width: 80%;
+	border-radius: 10px;
+	padding: 3px;
+}
+.comandos:hover {
+	background-color: black;
+	color: white;
+}
+.envolve {
+	border: 1px solid;
+	padding: 1px;
+	width: 80%;
+	border-radius: 10px;
+	margin-bottom: 4px;
+}
+.mais {
+	font-size: .9em;
+}
+.texto_do_banco{
+	font-size: 1.3em;
+	text-align: center; 
+	width: 75%;
+}
 /*ENTRE EM CONTATO INICIO*/
 
 .fundo_do_contato {
@@ -135,3 +160,10 @@
 	width: 75%;
 }
 /*FIM PÁGINA O QUE É A UML*/
+.botao {
+	padding: 2px;
+	font-size: .8em;
+	margin-left: 5px;
+	float: right;
+	border-radius: 10px;
+}

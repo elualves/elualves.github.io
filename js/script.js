@@ -21,3 +21,16 @@ function retorna_efeito_whatsapp() {
 	document.getElementById("icone_whatsapp").src = "../../imagens/icone_whatsapp.png"
 }
 
+
+const clipboard = new ClipboardJS('.botao')
+
+clipboard.on('success', function(e) {
+    alert("código copiado com sucesso")
+});
+
+clipboard.on('error', function(e) {
+    alert("Falha ao copiar o código")
+});
+
+
+

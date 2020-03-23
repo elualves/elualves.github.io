@@ -25,3 +25,6 @@
 .preto_bg {
 	background-color: #000;
 }
+.preto, .preto a {
+	color: #000;
+}
