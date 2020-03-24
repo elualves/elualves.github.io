@@ -1,0 +1,202 @@
+[class *='grid']{
+	width: 100%;
+	float: left;
+	min-height: 1px;
+}
+@media only screen and (max-width: 450px) {
+ .some_1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 960px) {
+.some_2 {
+display: none;
+}
+}
+@media only screen and (max-width: 1080px) {
+.some_3 {
+display: none;
+}
+}
+@media only screen and (max-width: 1400px) {
+.some_4 {
+display: none;
+}
+}
+@media only screen and (max-width: 1100px) {
+.aparece_3 ul li {
+  display: block;
+  font-size: 30%;
+
+}
+}
+@media only screen and (max-width: 1100px) {
+.aparece_3 {
+  display: block;
+  font-size: 30%;
+
+}
+}
+@media only screen and (max-width: 1095px) {
+.ajustaFonteSize_7 {
+font-size: .7em;
+}
+}
+@media only screen and (max-width: 960px) {
+.corpoDoFolderResponsivo {
+width: 100%;
+}
+}
+@media only screen and (max-width: 960px) {
+.aparece{
+  display: block;
+}
+}
+@media only screen and (max-width: 1040px){
+.topo2 {
+	position: fixed;
+	background-color: #81BEF7;
+	width: 100%;
+	height: 90px;
+}
+}
+@media only screen and (max-width: 1170px){
+.folderResponsivo {
+	background-color: black;
+	height: 150px;
+	width: 100%;
+	margin-bottom: 2px;	
+	margin-left: 2px;
+}
+}
+@media only screen and (max-width: 960px){
+.folderResponsivo {
+	background-color: blue;
+	height: 190px;
+	width: 50%;
+	margin-bottom: 2px;	
+	margin-left: 2px;
+}
+}
+@media only screen and (max-width: 2500px){
+.folderResponsivo {
+	margin-bottom: 2px;	
+	margin-left: 2px;
+}
+}
+@media only screen and (max-width: 960px){
+.ajuste {
+	margin-top: 90px;
+	margin-left: 10px;
+
+}
+}
+@media only screen and (max-width: 500px){
+.folderResponsivo {
+	background-color: orange;
+	height: 200px;
+	width: 80%;
+	margin-bottom: 2px;	
+	margin-left: 2px;
+}
+}
+.ajustaMargin {
+	margin-bottom: 2px;	
+	margin-left: 2px;
+}
+@media only screen and (max-width: 1040px){
+.imagem2 img {
+	width: 100%;
+	margin-top: 0px;
+}
+}
+@media only screen and (max-width: 1040px){
+.logo2 {
+	font-size: 2em;
+}
+}
+@media only screen and (max-width: 450px) {
+  .altera {
+    height: 70px;
+    font-size: .4em;
+    margin-top: -90px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .altera {
+    height: 90px;
+    font-size: .4em;
+    margin-top: -90px;
+  }
+}
+@media only screen and (max-width: 960px) {
+.scrollSuave2{
+
+}
+}
+@media screen and (min-width: 200px){
+    .grid-mc-1 {width: 8.33333%}
+	.grid-mc-2 {width: 16.66666%}
+	.grid-mc-3 {width: 25%}
+	.grid-mc-4 {width: 30%}
+	.grid-mc-5 {width: 41.66667%}
+	.grid-mc-6 {width: 50%}
+	.grid-mc-7 {width: 58.33333%}
+	.grid-mc-8 {width: 66.66666%}
+	.grid-mc-9 {width: 75%}
+	.grid-mc-10 {width: 83.33333%}
+	.grid-mc-11 {width: 91.66667%}
+	.grid-mc-12- {width: 100%}
+	.grid-mc-12-1 {width: 125%}
+}
+@media screen and (min-width: 320px){
+	.grid-p-1 {width: 8.33333%}
+    .grid-p-2 {width: 16.66666%}
+	.grid-p-3 {width: 25%}
+	.grid-p-4 {width: 32.33333%}
+	.grid-p-5 {width: 41.66667%}
+	.grid-p-6 {width: 10%}
+	.grid-p-7 {width: 58.33333%}
+	.grid-p-8 {width: 66.66666%}
+	.grid-p-9 {width: 75%}
+	.grid-p-10 {width: 83.33333%}
+	.grid-p-11 {width: 91.66667%}
+	.grid-p-12 {width: 100%}
+	.grid-p-12-99 {width: 99%}
+	.grid-p-12-1 {width: 115%}
+}
+
+@media screen and (min-width: 640px){
+	.grid-m-1 {width: 8.33333%}
+	.grid-m-2 {width: 16.66666%}
+	.grid-m-3 {width: 25%}
+	.grid-m-4 {width: 33.33333%}
+	.grid-m-5 {width: 41.66667%}
+	.grid-m-6 {width: 50%}
+	.grid-m-7 {width: 58.33333%}
+	.grid-m-8 {width: 66.66666%}
+	.grid-m-9 {width: 75%}
+	.grid-m-10 {width: 83.33333%}
+	.grid-m-11 {width: 91.66667%}
+	.grid-m-12 {width: 100%}
+	.grid-m-12-99 {width: 99%}
+  }
+
+@media screen and (min-width: 960px){
+	.grid-g-1 {width: 8.33333%}
+    .grid-g-2 {width: 14%}
+	.grid-g-3 {width: 25%}
+	.grid-g-4 {width: 32.33333%}
+	.grid-g-5 {width: 41.66667%}
+	.grid-g-6 {width: 50%}
+	.grid-g-7 {width: 58.33333%}
+	.grid-g-8 {width: 66.66666%}
+	.grid-g-9 {width: 75%}
+	.grid-g-10 {width: 83.33333%}
+	.grid-g-11 {width: 91.66667%}
+	.grid-g-12 {width: 100%}
+	.grid-g-13 {width: 7.5%}
+	.grid-g-14 {width: 4.5%}
+	.grid-g-45 {width: 28%}
+	.grid-g-45 {width: 48%}
+}

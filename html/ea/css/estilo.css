@@ -1,0 +1,112 @@
+/*
+ *RESET
+ *inicia o css com todas as tags html sem qq estilo padrão definido pelo browser
+ */
+*{
+	margin:0;
+	padding:0;
+	font-family:Roboto, Arial, Tahoma, sans-serif;
+	font-size:100%;
+	text-decoration:none;
+	box-sizing: border-box; /* Todo elemento leverá em conta apenas a largura e a altura determinada, sem somar a borda e o padding */
+	text-align: center;/*centraliza todos os elementos*/
+	-webkit-box-sizing:border-box;/*para safari, google chrome e outros*/
+	-moz-box-sizing:border-box;/*opera*/
+
+}
+
+body{
+	background-color: #000000;
+	position: absolute;
+	}
+.bordas, .bordas1{
+	border-radius: 16px ;
+	color: #fff; 
+	width: 50%;
+	box-shadow:2px 2px 5px #ccc;
+	border:1px solid #ddd;
+}
+.menu1 li{
+    font-weight: bold;
+	text-transform:uppercase; 
+    display: inline-block;
+    padding: 12px;
+    background-color: #dcdcdc;
+    margin-right: 0px;
+} 
+.menu1 li:hover{
+	background-color: #d3d3d3;
+}
+
+.bordas1 a{
+    color:#ff0000;
+	font-size: 25px;
+	font-family:  PlayFair Display;
+	margin-right: 0px;
+	margin-left: 0px;
+	
+}
+.bordas a{
+	color: #000;
+	font-size: 25px;
+	font-family:  PlayFair Display;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.men{
+	display:block;
+	float: right;
+	margin-bottom: 10px;
+    background-color: #fff;
+ 
+}
+.menu li{
+	font-weight: bold;
+	text-transform:uppercase; 
+    display: inline-block;
+    padding: 12px;
+    background-color: #dcdcdc;
+    margin-right: 0px;
+}
+.menu li:hover{
+	background-color: #d3d3d3;
+}
+
+.eduardo{
+	position: relative;
+	font-family: PlayFair Display;
+	font-size: 15em;
+	margin-top: 180px;
+	margin-right: 500px;
+
+}
+.alves{
+	position: relative;
+	font-family: PlayFair Display;
+	font-size: 15em;
+	margin-top: -277px;
+	margin-left: 870px;
+}
+.desenvolvimento{
+	position: relative;
+	font-family: PlayFair Display;
+	font-size: 3em;
+	margin-top: -40px;
+	margin-left: 838px;
+}
+.web{
+	position: relative;
+	font-family: PlayFair Display;
+	font-size: 3em;
+	margin-top: -55px;
+	margin-left: 1265px;
+}
+.preto{
+	background:#000000;
+}
+.branco{
+	color:white;
+}
+.vermelho{
+	color:#f4071b;
+}
