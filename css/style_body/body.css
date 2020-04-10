@@ -159,6 +159,10 @@
 	text-align: center; 
 	width: 75%;
 }
+.texto_dos_tibos_bd {
+	text-align: left;
+	margin-left: 30px;
+}
 /*FIM PÁGINA O QUE É A UML*/
 .botao {
 	padding: 2px;
