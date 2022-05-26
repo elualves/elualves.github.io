@@ -41,7 +41,7 @@
 			</div>	
 			
 			<div class="texto_do_banco azul_medio">
-				
+<!--leiaMais_1-->				
 				<div class="envolve azul_escuro">
 					<h3>Trocar usuário</h3>
 					<div class="comandos preto">git config --global user.name"nome_de_usuario"
@@ -49,9 +49,13 @@
 							Copiar</button>
 						</div>
 					</div>
-					<div class="mais"><a href="#" id="#">mais</a></div>
-				</div>
-
+						<span id="pontos_1"></span>
+					<span id="maiss_1">							
+						Se tiver mais de uma conta no GitHub, este comando altera o usuário das contas.<br>
+					</span>			
+                       <button onclick="leiaMais_1()" id="btnLeiaMais_1" class="botao_ler_mais">Leia Mais</button>
+                </div>
+<!--leiaMais_2-->
 				<div class="envolve azul_escuro">
 					<h3>Trocar email</h3>
 					<div class="comandos preto">git config --global user.email"email_de_usuario"
@@ -59,9 +63,13 @@
 							Copiar</button>
 						</div>
 					</div>
-					<div class="mais"><a href="#" id="#">mais</a></div>
-				</div>
-
+						<span id="pontos_2"></span>
+					<span id="maiss_2">							
+						Se tiver mais de uma conta no GitHub, este comando altera o email das contas.<br>
+					</span>			
+                       <button onclick="leiaMais_2()" id="btnLeiaMais_2" class="botao_ler_mais">Leia Mais</button>
+                </div>
+<!--leiaMais_3-->
 				<div class="envolve azul_escuro">
 					<h3>Ver usuário configurado</h3>
 					<div class="comandos preto">git config --global user.name
@@ -69,20 +77,71 @@
 							Copiar</button>
 						</div>
 					</div>
-					<div class="mais"><a href="#" id="#">mais</a></div>
-				</div>
-
+						<span id="pontos_3"></span>
+					<span id="maiss_3">							
+						Mostra o usuário configurado<br>
+					</span>			
+                       <button onclick="leiaMais_3()" id="btnLeiaMais_3" class="botao_ler_mais">Leia Mais</button>
+                </div>
+<!--leiaMais_4-->
 				<div class="envolve azul_escuro">
 					<h3>Ver email configurado</h3>
 					<div class="comandos preto">git config --global user.email
 						<div class="botao preto"><button class="botao"data-clipboard-text= "git config --global user.email">
 							Copiar</button>
 						</div>
-					</div>
-					<div class="mais"><a href="#" id="#">mais</a></div>
-				</div>
+					</div>						
+					<span id="pontos_4"></span>
+					<span id="maiss_4">							
+						Mostra o email configurado.<br>
+					</span>			
+                       <button onclick="leiaMais_4()" id="btnLeiaMais_4" class="botao_ler_mais">Leia Mais</button>
+                </div>
+<!--leiaMais_5-->
+				<div class="envolve azul_escuro">
+					<h3>Ver se chave SSH existe</h3>
+					<div class="comandos preto">ls -al ~/.ssh
+						<div class="botao preto"><button class="botao"data-clipboard-text= "ls -al ~/.ssh">Copiar</button>
+						</div>
+					</div>					
+					<span id="pontos_5"></span>
+					<span id="maiss_5">							
+						Verifique se você já tem uma chave SSH pública. Por padrão, nomes de arquivos de chaves públicas compatíveis com GitHub são um dos listados a seguir: id_rsa.pub, id_ecdsa.pub ou id_ed25519.pub
+						<br>Se você receber um erro: ~/. sh não existe, significa que você não tem um par de chave SSH existente no local padrão.<br>
+					</span>								
+                       <button onclick="leiaMais_5()" id="btnLeiaMais_5" class="botao_ler_mais">Leia Mais</button>
+                </div>
 
-			</div>
+<!--leiaMais_6-->
+				<div class="envolve azul_escuro">
+					<h3>Gerar chave SSH</h3>
+					<div class="comandos preto">$ ssh-keygen -t ed25519 -C "seu_email"
+						<div class="botao preto"><button class="botao"data-clipboard-text= 'ssh-keygen -t ed25519 -C "seu_email"'>Copiar </button>
+						</div>
+					</div>					
+					<span id="pontos_6"></span>
+					<span id="maiss_6">							
+						Cria uma nova chave SSH, usando o nome de e-mail fornecido como uma etiqueta.<br>
+					</span>								
+                       <button onclick="leiaMais_6()" id="btnLeiaMais_6" class="botao_ler_mais">Leia Mais</button>
+                </div>
+
+ <!--leiaMais_7-->
+				<div class="envolve azul_escuro">
+					<h3>Copiar para add chave ao agente SSH</h3>
+					<div class="comandos preto">clip < ~/.ssh/id_ed25519.pub"
+						<div class="botao preto"><button class="botao"data-clipboard-text= "clip < ~/.ssh/id_ed25519.pub">Copiar</button>
+						</div>
+					</div>					
+					<span id="pontos_7"></span>
+					<span id="maiss_7">							
+						Este comando copia a chave SSH para ser adicionada ao GitHub.
+						Se clip não estiver funcionando, você poderá localizar a pasta C:user/cliente ou seu nome/.ssh, abrir o arquivo no seu editor de texto e copiá-lo.<br>
+					</span>								
+                       <button onclick="leiaMais_7()" id="btnLeiaMais_7" class="botao_ler_mais">Leia Mais</button>
+                </div>
+<!---->		
+
 
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
 			<script src="../../js/script.js"></script>
@@ -90,16 +149,7 @@
 
 			</div>
 		</div>
-				
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>		
+						
 			</div>
 		
 		</div>

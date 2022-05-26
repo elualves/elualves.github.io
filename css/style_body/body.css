@@ -115,6 +115,36 @@
 .mais {
 	font-size: .9em;
 }
+#maiss_1 {
+	display : none;
+}
+#maiss_2 {
+	display : none;
+}
+#maiss_3 {
+	display : none;
+}
+#maiss_4 {
+	display : none;
+}
+#maiss_5 {
+	display : none;
+}
+#maiss_6 {
+	display : none;
+}
+#maiss_7 {
+	display : none;
+}
+#btnLeiaMais_4 {
+
+}
+#btnLeiaMais_5 {
+
+}
+#pontos {
+	
+}
 .texto_do_banco{
 	font-size: 1.3em;
 	text-align: center; 
@@ -165,9 +195,18 @@
 }
 /*FIM PÁGINA O QUE É A UML*/
 .botao {
-	padding: 2px;
+	padding: 1px;
 	font-size: .8em;
 	margin-left: 5px;
 	float: right;
-	border-radius: 10px;
+	border-radius: 5px;
+	border-width: 1px;
+}
+.botao_ler_mais {
+	padding: 1px;
+	font-size: .8em;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border-radius: 5px;
+	border-width: 1px;
 }
