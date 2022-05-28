@@ -33,6 +33,23 @@ clipboard.on('error', function(e) {
 });
 
 function 
+leiaMais_b() {
+	var pontos_b=document.getElementById("pontos_b");
+	var maisTexto_b=document.getElementById("maiss_b");
+	var btnLeiaMais_b=document.getElementById("btnLeiaMais_b");
+
+	if(pontos_b.style.display ==="none"){
+		pontos_b.style.display="inline";
+		maisTexto_b.style.display="none";
+		btnLeiaMais_b.innerHTML="Abrir";
+	}else{
+	    pontos_b.style.display="none";
+		maisTexto_b.style.display="inline";
+		btnLeiaMais_b.innerHTML="Fechar";
+	}
+}
+
+function 
 leiaMais_1() {
 	var pontos_1=document.getElementById("pontos_1");
 	var maisTexto_1=document.getElementById("maiss_1");
@@ -151,3 +168,35 @@ leiaMais_7() {
 	}
 }
 
+function 
+leiaMais_8() {
+	var pontos_8=document.getElementById("pontos_8");
+	var maisTexto_8=document.getElementById("maiss_8");
+	var btnLeiaMais_8=document.getElementById("btnLeiaMais_8");
+
+	if(pontos_8.style.display ==="none"){
+		pontos_8.style.display="inline";
+		maisTexto_8.style.display="none";
+		btnLeiaMais_8.innerHTML="Leia Mais";
+	}else{
+	    pontos_8.style.display="none";
+		maisTexto_8.style.display="inline";
+		btnLeiaMais_8.innerHTML="Fechar";
+	}
+}
+function 
+leiaMais_9() {
+	var pontos_9=document.getElementById("pontos_9");
+	var maisTexto_9=document.getElementById("maiss_9");
+	var btnLeiaMais_9=document.getElementById("btnLeiaMais_9");
+
+	if(pontos_9.style.display ==="none"){
+		pontos_9.style.display="inline";
+		maisTexto_9.style.display="none";
+		btnLeiaMais_9.innerHTML="Leia Mais";
+	}else{
+	    pontos_9.style.display="none";
+		maisTexto_9.style.display="inline";
+		btnLeiaMais_9.innerHTML="Fechar";
+	}
+}

@@ -41,10 +41,11 @@
 			</div>	
 			
 			<div class="texto_do_banco azul_medio">
+
 <!--leiaMais_1-->				
 				<div class="envolve azul_escuro">
 					<h3>Trocar usuário</h3>
-					<div class="comandos preto">git config --global user.name"nome_de_usuario"
+					<div class="comandos preto">"git config --global user.name"nome_de_usuario"
 						<div class="botao preto"><button class="botao"data-clipboard-text= 'git config --global user.name "nome_de_usuario" '>
 							Copiar</button>
 						</div>
@@ -58,7 +59,7 @@
 <!--leiaMais_2-->
 				<div class="envolve azul_escuro">
 					<h3>Trocar email</h3>
-					<div class="comandos preto">git config --global user.email"email_de_usuario"
+					<div class="comandos preto">"git config --global user.email"email_de_usuario"
 						<div class="botao preto"><button class="botao"data-clipboard-text= 'git config --global user.email "email_de_usuario" '>
 							Copiar</button>
 						</div>
@@ -72,7 +73,7 @@
 <!--leiaMais_3-->
 				<div class="envolve azul_escuro">
 					<h3>Ver usuário configurado</h3>
-					<div class="comandos preto">git config --global user.name
+					<div class="comandos preto">"git config --global user.name"
 						<div class="botao preto"><button class="botao"data-clipboard-text= "git config --global user.name">
 							Copiar</button>
 						</div>
@@ -86,7 +87,7 @@
 <!--leiaMais_4-->
 				<div class="envolve azul_escuro">
 					<h3>Ver email configurado</h3>
-					<div class="comandos preto">git config --global user.email
+					<div class="comandos preto">"git config --global user.email"
 						<div class="botao preto"><button class="botao"data-clipboard-text= "git config --global user.email">
 							Copiar</button>
 						</div>
@@ -97,10 +98,23 @@
 					</span>			
                        <button onclick="leiaMais_4()" id="btnLeiaMais_4" class="botao_ler_mais">Leia Mais</button>
                 </div>
+
+
+<!---->
+<!--grupo ssh-->
+				<div class="envolve azul_escuro">
+					<h3>Chave SSH</h3>
+															
+				<span id="pontos_b"></span>
+				<span id="maiss_b">	
+<!---->
+
+
+
 <!--leiaMais_5-->
 				<div class="envolve azul_escuro">
 					<h3>Ver se chave SSH existe</h3>
-					<div class="comandos preto">ls -al ~/.ssh
+					<div class="comandos preto">"ls -al ~/.ssh"
 						<div class="botao preto"><button class="botao"data-clipboard-text= "ls -al ~/.ssh">Copiar</button>
 						</div>
 					</div>					
@@ -115,7 +129,7 @@
 <!--leiaMais_6-->
 				<div class="envolve azul_escuro">
 					<h3>Gerar chave SSH</h3>
-					<div class="comandos preto">$ ssh-keygen -t ed25519 -C "seu_email"
+					<div class="comandos preto">"$ ssh-keygen -t ed25519 -C "seu_email"
 						<div class="botao preto"><button class="botao"data-clipboard-text= 'ssh-keygen -t ed25519 -C "seu_email"'>Copiar </button>
 						</div>
 					</div>					
@@ -129,7 +143,7 @@
  <!--leiaMais_7-->
 				<div class="envolve azul_escuro">
 					<h3>Copiar para add chave ao agente SSH</h3>
-					<div class="comandos preto">clip < ~/.ssh/id_ed25519.pub"
+					<div class="comandos preto">"clip < ~/.ssh/id_ed25519.pub"
 						<div class="botao preto"><button class="botao"data-clipboard-text= "clip < ~/.ssh/id_ed25519.pub">Copiar</button>
 						</div>
 					</div>					
@@ -140,18 +154,50 @@
 					</span>								
                        <button onclick="leiaMais_7()" id="btnLeiaMais_7" class="botao_ler_mais">Leia Mais</button>
                 </div>
-<!---->		
+
+ <!--leiaMais_8-->
+				<div class="envolve azul_escuro">
+					<h3>Ver chave id_rsa</h3>
+					<div class="comandos preto">"~/.ssh/id_rsa"
+						<div class="botao preto"><button class="botao"data-clipboard-text= "~/.ssh/id_rsa">Copiar</button>
+						</div>
+					</div>					
+					<span id="pontos_8"></span>
+					<span id="maiss_8">							
+						Este comando verifica se existe chave no padrão .ssh/id_rsa, se não existir retornará:No such file or directory
+						<br>
+					</span>								
+                       <button onclick="leiaMais_8()" id="btnLeiaMais_8" class="botao_ler_mais">Leia Mais</button>
+                </div>
+
+ <!--leiaMais_9-->
+				<div class="envolve azul_escuro">
+					<h3>Criar primeira chave id_rsa</h3>
+					<div class="comandos preto">"ssh-keygen -t rsa"
+						<div class="botao preto"><button class="botao"data-clipboard-text= "ssh-keygen -t rsa">Copiar</button>
+					   </div>
+					</div>					
+					<span id="pontos_9"></span>
+				  <span id="maiss_9">							
+						Este comando cria a primeira chave no padrão .ssh/id_rsa
+						<br>
+					<button onclick="leiaMais_9()" id="btnLeiaMais_9" class="botao_ler_mais">Leia Mais</button>
+				  </span> 		  			
+                </div>
+
+<!--fim grupo SSH-->      </span>           							
+		            <button onclick="leiaMais_b()" id="btnLeiaMais_b" class="botao_ler_mais">Abrir</button>
+		        		        
+			</div>
+		</div>
+	</div>
+
+<!---->	
 
 
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
 			<script src="../../js/script.js"></script>
-
-
-			</div>
-		</div>
-						
-			</div>
-		
+					
 		</div>
 	
 		<footer>

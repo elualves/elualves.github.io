@@ -115,6 +115,9 @@
 .mais {
 	font-size: .9em;
 }
+#maiss_b {
+	display : none;
+}
 #maiss_1 {
 	display : none;
 }
@@ -136,12 +139,13 @@
 #maiss_7 {
 	display : none;
 }
-#btnLeiaMais_4 {
-
+#maiss_8 {
+	display : none;
 }
-#btnLeiaMais_5 {
-
+#maiss_9 {
+	display : none;
 }
+
 #pontos {
 	
 }
