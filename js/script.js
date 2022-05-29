@@ -200,3 +200,20 @@ leiaMais_9() {
 		btnLeiaMais_9.innerHTML="Fechar";
 	}
 }
+function 
+leiaMais_10() {
+	var pontos_10=document.getElementById("pontos_10");
+	var maisTexto_10=document.getElementById("maiss_10");
+	var btnLeiaMais_10=document.getElementById("btnLeiaMais_10");
+
+	if(pontos_10.style.display ==="none"){
+		pontos_10.style.display="inline";
+		maisTexto_10.style.display="none";
+		btnLeiaMais_10.innerHTML="Leia Mais";
+	}else{
+	    pontos_10.style.display="none";
+		maisTexto_10.style.display="inline";
+		btnLeiaMais_10.innerHTML="Fechar";
+	}
+}
+

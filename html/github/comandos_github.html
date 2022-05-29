@@ -102,11 +102,11 @@
 
 <!---->
 <!--grupo ssh-->
-				<div class="envolve azul_escuro">
+		  <div class="envolve azul_escuro">
 					<h3>Chave SSH</h3>
 															
 				<span id="pontos_b"></span>
-				<span id="maiss_b">	
+			<span id="maiss_b">	
 <!---->
 
 
@@ -170,7 +170,7 @@
                        <button onclick="leiaMais_8()" id="btnLeiaMais_8" class="botao_ler_mais">Leia Mais</button>
                 </div>
 
- <!--leiaMais_9-->
+<!--leiaMais_9-->
 				<div class="envolve azul_escuro">
 					<h3>Criar primeira chave id_rsa</h3>
 					<div class="comandos preto">"ssh-keygen -t rsa"
@@ -181,14 +181,36 @@
 				  <span id="maiss_9">							
 						Este comando cria a primeira chave no padrão .ssh/id_rsa
 						<br>
+						 </span> 
 					<button onclick="leiaMais_9()" id="btnLeiaMais_9" class="botao_ler_mais">Leia Mais</button>
-				  </span> 		  			
+				 		  			
                 </div>
 
-<!--fim grupo SSH-->      </span>           							
+ <!--leiaMais_10-->
+				<div class="envolve azul_escuro">
+					<h3>Criar outra(s) chave(s) id_rsa_???</h3>
+					<div class="comandos preto">" ssh-keygen -t rsa -C "seu_email.com" -f "id_rsa_???""
+						<div class="botao preto"><button class="botao"data-clipboard-text= "ssh-keygen -t rsa -C 'email@work_mail.com' -f 'id_rsa_work_user1'">Copiar</button>
+					   </div>
+					</div>					
+					<span id="pontos_10"></span>
+				  <span id="maiss_10">							
+						Este comando cria outra(s)chave(s) .ssh/id_rsa_???.
+						Altere "seu_email.com" para o email configurado na nova conta do GitHub.
+						Altere "id_rsa_???" para id_rsa_seu_identificador
+						<br>
+						 </span> 
+					<button onclick="leiaMais_10()" id="btnLeiaMais_10" class="botao_ler_mais">Leia Mais</button>
+				 
+                </div>
+
+                
+
+<!--fim grupo SSH-->
+            </span>           							
 		            <button onclick="leiaMais_b()" id="btnLeiaMais_b" class="botao_ler_mais">Abrir</button>
 		        		        
-			</div>
+		   </div>
 		</div>
 	</div>
 
