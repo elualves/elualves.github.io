@@ -217,3 +217,19 @@ leiaMais_10() {
 	}
 }
 
+function 
+leiaMais_11() {
+	var pontos_11=document.getElementById("pontos_11");
+	var maisTexto_11=document.getElementById("maiss_11");
+	var btnLeiaMais_11=document.getElementById("btnLeiaMais_11");
+
+	if(pontos_11.style.display ==="none"){
+		pontos_11.style.display="inline";
+		maisTexto_11.style.display="none";
+		btnLeiaMais_11.innerHTML="Leia Mais";
+	}else{
+	    pontos_11.style.display="none";
+		maisTexto_11.style.display="inline";
+		btnLeiaMais_11.innerHTML="Fechar";
+	}
+}
