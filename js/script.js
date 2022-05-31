@@ -233,3 +233,20 @@ leiaMais_11() {
 		btnLeiaMais_11.innerHTML="Fechar";
 	}
 }
+
+function 
+leiaMais_12() {
+	var pontos_12=document.getElementById("pontos_12");
+	var maisTexto_12=document.getElementById("maiss_12");
+	var btnLeiaMais_12=document.getElementById("btnLeiaMais_12");
+
+	if(pontos_12.style.display ==="none"){
+		pontos_12.style.display="inline";
+		maisTexto_12.style.display="none";
+		btnLeiaMais_12.innerHTML="Leia Mais";
+	}else{
+	    pontos_12.style.display="none";
+		maisTexto_12.style.display="inline";
+		btnLeiaMais_12.innerHTML="Fechar";
+	}
+}
