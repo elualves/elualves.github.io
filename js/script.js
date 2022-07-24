@@ -250,3 +250,35 @@ leiaMais_12() {
 		btnLeiaMais_12.innerHTML="Fechar";
 	}
 }
+function 
+leiaMais_13() {
+	var pontos_13=document.getElementById("pontos_13");
+	var maisTexto_13=document.getElementById("maiss_13");
+	var btnLeiaMais_13=document.getElementById("btnLeiaMais_13");
+
+	if(pontos_13.style.display ==="none"){
+		pontos_13.style.display="inline";
+		maisTexto_13.style.display="none";
+		btnLeiaMais_13.innerHTML="Leia Mais";
+	}else{
+	    pontos_13.style.display="none";
+		maisTexto_13.style.display="inline";
+		btnLeiaMais_13.innerHTML="Fechar";
+	}
+}
+function 
+leiaMais_14() {
+	var pontos_14=document.getElementById("pontos_14");
+	var maisTexto_14=document.getElementById("maiss_14");
+	var btnLeiaMais_14=document.getElementById("btnLeiaMais_14");
+
+	if(pontos_14.style.display ==="none"){
+		pontos_14.style.display="inline";
+		maisTexto_14.style.display="none";
+		btnLeiaMais_14.innerHTML="Leia Mais";
+	}else{
+	    pontos_14.style.display="none";
+		maisTexto_14.style.display="inline";
+		btnLeiaMais_14.innerHTML="Fechar";
+	}
+}
